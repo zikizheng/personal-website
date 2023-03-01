@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #23252C;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.app{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio{
+    
+    display:flex;
+    width: 317px;
+    flex-direction: column;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.info--portrait{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+.info--name{
+    color:#FFFFFF;
+    margin: 0;
+    margin-top: 21px;
+    margin-bottom: 6.19px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    
+}
+.info--role{
+    margin: 0;
+    color:#ef9a12;    
+    font-size:12.8px;
+    line-height: 15.49px;
+    font-weight: 400;
+    font-size: 12.8px;
+}
+.info--spec{
+    margin: 0;
+    color:#75baff;    
+    font-size:12.8px;
+    line-height: 15.49px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.info--major{
+    margin: 0;
+    margin-bottom: 2px;
+    color:#b69ee8;    
+    font-size:11px;
+    line-height: 15.49px;
+    font-weight: 400;
+    font-size: 11px;
+}
+.info--site{
+    font-family: 'Inter';
+    margin: 0;
+    color: #F5F5F5;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-bottom: 15px;
+    
+}
+.info--links{
+    display:flex;
+    width: 317px;
+    justify-content: center;
+    margin:0;
+}
+.info--email{
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Inter';
+    margin-right: 17px;
+    
+}
+.info--maillogo{
+    width: 16px;
+    height: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.info--mailtxt{
+    color:#374151;
+    font-weight: 500;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    margin-left: 8px;
+}
+.info--linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    width: 115px;
+    height: 34px;
+
+    border: 1px solid #5093E2;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+}
+.info--linkedintxt{
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.des{
+    font-family: 'Inter';
+    line-height: 150%;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: 0;
+}
+
+.des h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin:0;
+}
+
+.des p{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.footer{
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    width: 317px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer button{
+    margin:0;
+    height: 25;
+    width: 25;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.footer--fb{
+    padding-left:23.5px;
+    padding-right:23.5px;
+}
+
+.footer--insta{
+    padding-right:23.5px;
+}
